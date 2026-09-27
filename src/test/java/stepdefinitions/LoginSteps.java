@@ -1,8 +1,8 @@
 package stepdefinitions;
 
-import com.example.fun.LoginPage;
-import com.example.fun.Page;
-import com.example.fun.ShopPage;
+import io.github.rmadhuria6.automation.pages.LoginPage;
+import io.github.rmadhuria6.automation.pages.Page;
+import io.github.rmadhuria6.automation.pages.ShopPage;
 import hooks.Hooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

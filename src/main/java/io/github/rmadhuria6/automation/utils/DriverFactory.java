@@ -1,4 +1,4 @@
-package com.example.utils;
+package io.github.rmadhuria6.automation.utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

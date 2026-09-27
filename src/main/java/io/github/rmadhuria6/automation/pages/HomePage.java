@@ -1,5 +1,6 @@
-package com.example.fun;
+package io.github.rmadhuria6.automation.pages;
 
+import io.github.rmadhuria6.automation.pages.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -12,3 +13,4 @@ public class HomePage extends Page {
         return driver.findElement(By.xpath("//h1[text()='Protractor Tutorial']")).getText();
     }
 }
+

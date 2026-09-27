@@ -1,7 +1,7 @@
 package com.example.tests;
 
-import com.example.pages.HomePage;
-import com.example.utils.DriverFactory;
+import com.example.fun.TryTestingThisHomePage;
+import io.github.rmadhuria6.automation.utils.DriverFactory;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
@@ -16,7 +16,7 @@ public class LoginTest {
         WebDriver driver = DriverFactory.createChrome(false); // headed mode
 
         try {
-            HomePage home = new HomePage(driver);
+            TryTestingThisHomePage home = new TryTestingThisHomePage(driver);
             home.open();
             assertTrue(home.title().toLowerCase().contains("test"));
             System.out.println(home.title());

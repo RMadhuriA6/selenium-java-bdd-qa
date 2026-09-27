@@ -1,6 +1,5 @@
 package com.example.fun;
 
-import com.example.utils.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

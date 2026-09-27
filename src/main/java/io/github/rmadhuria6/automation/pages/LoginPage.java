@@ -1,9 +1,7 @@
-package com.example.fun;
+package io.github.rmadhuria6.automation.pages;
 
 //import static hooks.Hooks;
-import static hooks.Hooks.driver;
 
-import hooks.Hooks;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

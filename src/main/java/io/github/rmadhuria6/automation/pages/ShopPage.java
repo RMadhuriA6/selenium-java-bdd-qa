@@ -1,4 +1,4 @@
-package com.example.fun;
+package io.github.rmadhuria6.automation.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

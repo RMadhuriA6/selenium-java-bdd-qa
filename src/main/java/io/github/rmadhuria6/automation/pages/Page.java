@@ -1,7 +1,5 @@
-package com.example.fun;
+package io.github.rmadhuria6.automation.pages;
 
-
-import hooks.Hooks;
 import org.openqa.selenium.WebDriver;
 
 public abstract class Page {

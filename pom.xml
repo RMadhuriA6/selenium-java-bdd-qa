@@ -12,7 +12,6 @@
         <!-- Target JDK release (your JDK is 23) -->
         <maven.compiler.release>23</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<!--        <junit.jupiter.version>5.12.2</junit.jupiter.version>-->
     </properties>
 
     <dependencies>

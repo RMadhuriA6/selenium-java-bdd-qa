@@ -1,12 +1,12 @@
-package com.example.pages;
+package com.example.fun;
 
 import org.openqa.selenium.WebDriver;
 
-public class HomePage {
+public class TryTestingThisHomePage {
     private final WebDriver driver;
     private final String url = "https://trytestingthis.netlify.app/";
 
-    public HomePage(WebDriver driver) {
+    public TryTestingThisHomePage(WebDriver driver) {
         this.driver = driver;
     }
 
